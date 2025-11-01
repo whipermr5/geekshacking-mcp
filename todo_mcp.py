@@ -50,9 +50,9 @@ def get_todos_for_file(
     return [text for text in todos.values()]
 
 
-def run():
+def main():
     mcp.run()
 
 
 if __name__ == '__main__':
-    run()
+    main()
