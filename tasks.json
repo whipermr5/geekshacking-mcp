@@ -1,15 +1,6 @@
 {
-  "main.js": {
-    "_10": "abcd",
-    "_20": "efgh",
-    "_30": "ijkl",
-    "_3": "#TODO test 3",
-    "_1": "#TODO test 1",
-    "_2": "#TODO test 2"
-  },
-  "db.js": {
-    "_1": "#TODO test 1",
-    "_2": "#TODO test 2",
-    "_3": "#TODO test 3"
+  "test.js": {
+    "_1": "test todo 1",
+    "_3": "test todo 123"
   }
 }

@@ -3,8 +3,8 @@ from typing import Annotated, NamedTuple
 
 from todo_db import TodoDB
 
-todo_db = TodoDB()
-todo_db.sample_data()
+todo_db = TodoDB(db_file='/Users/johnyong/workspace/geekshacking/mcp/tasks.json')
+# todo_db.sample_data()
 
 class Todo(NamedTuple):
     filename: Annotated[str, 'Source file containing the #TODOs']
